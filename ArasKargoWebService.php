@@ -12,22 +12,16 @@ abstract class ArasKargoWebService
     
 	protected $webServiceUsername 		= '';
     protected $webServicePassword 		= '';
-	protected $webServiceAOUsername 	= ''; # alici odemeli 
-    protected $webServiceAOPassword 	= ''; # alici odemeli 
-   	protected $testWebServiceUsername 	= '';
-    protected $testWebServicePassword 	= '';
+   	protected $testWebServiceUsername 	= 'testuser';
+    protected $testWebServicePassword 	= '123456';
     
 	
-    public function getWebServiceAOUsername() { return $this->webServiceAOUsername; }
-    public function setWebServiceAOUsername($webServiceAOUsername){ $this->webServiceAOUsername = $webServiceAOUsername; }
 	public function getWebServiceUsername() { return $this->webServiceUsername; }
     public function setWebServiceUsername($webServiceUsername){ $this->webServiceUsername = $webServiceUsername; }
     public function getTestWebServiceUsername() { return $this->testWebServiceUsername; }
     public function setTestWebServiceUsername($testWebServiceUsername){ $this->testWebServiceUsername = $testWebServiceUsername; }
     public function getWebServicePassword() { return $this->webServicePassword; }
     public function setWebServicePassword($webServicePassword){ $this->webServicePassword = $webServicePassword; }
-	public function getWebServiceAOPassword() { return $this->webServiceAOPassword; }
-    public function setWebServiceAOPassword($webServiceAOPassword){ $this->webServiceAOPassword = $webServiceAOPassword; }
     public function getTestWebServicePassword() { return $this->testWebServicePassword; }
     public function setTestWebServicePassword($testWebServicePassword){ $this->testWebServicePassword = $testWebServicePassword; }
     public function getMode() { return $this->mode; }
